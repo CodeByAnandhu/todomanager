@@ -10,7 +10,7 @@ class CheckBox extends Component {
 
     handleChange(e) {
         const {checked} = e.target;
-
+       
         this.setState({checked});
         this.props.onChange(checked);
     }

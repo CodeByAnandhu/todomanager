@@ -15,12 +15,12 @@ export default function TodoList(props) {
         <div className="container">
             <div className="row">
                 <div className="todolist">
-                    <Header {...{addNew, mode, query, setSearchQuery}}/>
+                    <Header {...{addNew, mode, query, setSearchQuery,}}/>
                     <FilteredList {...{items, changeStatus}}/>
-                    <Footer {...{activeItemCount, filter, changeFilter, mode, changeMode}}/>
-                    <Info {...{mode}}/>
+                    <Info {...{mode,}}/>
+                    <Footer {...{activeItemCount, filter, changeFilter,}}/>
                 </div>
-            </div>
+            </div>  
         </div>
     );
 }
